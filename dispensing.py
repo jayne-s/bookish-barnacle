@@ -18,7 +18,7 @@ BAUD_RATE = 9600
 MODEL_PATH = "/home/Shruthigna/Documents/face_recognition-linux-aarch64-v14.eim" 
 
 MEDICATION_SCHEDULE = {
-	"jayne": "19:44",
+	"jayne": "20:52",
 	"areebah": "13:00"
 }
 
@@ -279,9 +279,9 @@ def main():
 							else:
 								print("Low confidence or unknown person")
 								
-					if not recognized:
-						print(f"Failed to recognize person after {max_attempts}")
-						print("Please use manual trigger")
+					#if not recognized:
+						#print(f"Failed to recognize person after {max_attempts}")
+						#print("Please use manual trigger")
 						
 				else:
 					print("No medication due. Waiting...")
