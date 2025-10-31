@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/home/Shruthigna/Documents/test_face_recognition.py", line 4, in <module>
+    face_net = cv2.dnn.readNetFromCaffe("deploy.prototxt", "res10_300x300_sdd_iter_140000.caffemodel")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.6.0) ./modules/dnn/src/caffe/caffe_io.cpp:1126: error: (-2:Unspecified error) FAILED: fs.is_open(). Can't open "deploy.prototxt" in function 'ReadProtoFromTextFile'
