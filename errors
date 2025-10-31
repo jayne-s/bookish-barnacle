@@ -3,3 +3,7 @@ Traceback (most recent call last):
     face_net = cv2.dnn.readNetFromCaffe("deploy.prototxt", "res10_300x300_sdd_iter_140000.caffemodel")
                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 cv2.error: OpenCV(4.6.0) ./modules/dnn/src/caffe/caffe_io.cpp:1126: error: (-2:Unspecified error) FAILED: fs.is_open(). Can't open "deploy.prototxt" in function 'ReadProtoFromTextFile'
+
+
+wget https://raw.githubusercontent.com/opencv/opencv/master/samples/dnn/face_detector/deploy.prototxt
+wget https://raw.githubusercontent.com/opencv/opencv_3rdparty/master/dnn_models/res10_300x300_ssd_iter_140000.caffemodel
